@@ -1,0 +1,7 @@
+.container {
+    @extend %container;
+    width: 100%;
+
+    // uncomment below to see container borders
+    @extend %outline;
+}
